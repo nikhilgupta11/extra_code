@@ -1,0 +1,13 @@
+{
+    "name": "Accommodation",
+    "alias": "accommodation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Accommodation\\Providers\\AccommodationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

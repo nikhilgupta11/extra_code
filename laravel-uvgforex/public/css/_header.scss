@@ -1,0 +1,93 @@
+.header-wrapper{
+  background: transparent linear-gradient(242deg, #47BFDF 0%, #5089C6 0%, #035397 100%) 0% 0% no-repeat padding-box;
+  color: $white;
+
+    .brand-logo {
+        img {
+            width: 130px ;
+            height: 130px;
+        }
+    }
+    .header-info {
+        line-height: 27px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: initial;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), color-stop($orange), to($orange));
+		background-image: linear-gradient(transparent 0, transparent calc(50% - 25%), $orange calc(50% - 25%), $orange 100%);
+		background-size: 100% 200%;
+		background-position: 0 0;
+		word-break: break-word;
+		width: auto;
+    }
+    .header-content {
+        h1 {
+            font-weight: 600;
+            line-height: 57px;
+            letter-spacing: 0;
+            font-size: 42px;
+        }
+        h4 {
+            font-weight: 600;
+            line-height: 33px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .header-wrapper {
+        .header-section {
+            
+            .brand-logo {
+                width: 30%;
+            }
+            .brand-title {
+                width: 70%;
+                .header-info {
+                    margin: 20px 0;
+                    font-size: 16px;   
+                }
+            }
+        }
+        
+        .header-content {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            h1 {
+                font-size: 30px;
+                line-height: 38px;
+            }
+            h4 {
+                font-size: 18px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .header-wrapper {
+        .header-section {
+            padding-bottom: 10px !important;
+        }
+        .header-section-row  {
+            align-items: center !important;
+        }
+        .header-content h4 {
+           margin-bottom: 0;
+        } 
+        .brand-logo {
+            width: 30%;
+            img {
+                width: 75px;
+                height: 80px;
+            }
+        }
+        .brand-title {
+           width: 70%;
+       }
+
+    }
+    
+}

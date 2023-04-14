@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="23" viewBox="0 0 57 23">
+  <g id="Group_93" data-name="Group 93" transform="translate(-384 -452)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="57" height="23" rx="3" transform="translate(384 452)" fill="#035397"/>
+    <path id="Icon_awesome-exchange-alt" data-name="Icon awesome-exchange-alt" d="M0,8.452V7.807A.968.968,0,0,1,.968,6.84H15.481V4.9a.968.968,0,0,1,1.652-.684l3.225,3.225a.968.968,0,0,1,0,1.368l-3.225,3.225a.968.968,0,0,1-1.652-.684V9.42H.968A.968.968,0,0,1,0,8.452ZM19.674,14.58H5.16V12.645a.968.968,0,0,0-1.652-.684L.283,15.186a.968.968,0,0,0,0,1.368L3.509,19.78A.968.968,0,0,0,5.16,19.1V17.16H19.674a.968.968,0,0,0,.968-.968v-.645A.968.968,0,0,0,19.674,14.58Z" transform="translate(402 451.064)" fill="#fff"/>
+  </g>
+</svg>

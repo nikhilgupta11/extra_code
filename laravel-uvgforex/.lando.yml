@@ -1,0 +1,10 @@
+name: uvgforex
+recipe: laravel
+config:
+  webroot: public
+  php: '7.4'
+services:
+  myservice:
+    type: phpmyadmin
+    hosts:
+     - database

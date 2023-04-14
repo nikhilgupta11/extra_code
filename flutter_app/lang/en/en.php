@@ -1,0 +1,31 @@
+<?php
+return [
+    'splash-title' => 'Calculate and Offset your Travel Carbon Footprint',
+    'splash-para' => 'Let\'s make Sustainable Travel our way of life!',
+    'login-title' => 'Welcome Back!',
+    'login-para' => 'Are you ready to Make a Difference?',
+    'email-label' => 'Email Address',
+    'email-placeholder' => 'Enter your email address',
+    'password-label' => 'Password',
+    'password-placeholder' => 'Enter your password',
+    'register-title' => 'Create an account',
+    'first-name-label' => 'First Name',
+    'first-name-placeholder' => 'Enter your first name',
+    'last-name-label' => 'Last Name',
+    'last-name-placeholder' => 'Enter your last name',
+    'forgot-title' => 'Forgot Password',
+    'forgot-para' => 'Please enter your Email Address. You will receive an email message with instructions on how to reset your password.',
+    'otp-title' => 'OTP Verfication',
+    'otp-para' => 'We have sent an OTP to your entered email address.',
+    'reset-title' => 'Reset Password',
+    'reset-para' => 'Please enter your new password.',
+    'confirm-password-label' => 'Confirm Password',
+    'confirm-password-placeholder' => 'Enter confirm password',
+
+    'home-title' => 'Let\'s start!',
+    'home-para' => 'Enter your overall journey information. On the next step, you will insert details regarding all interim legs and stops.',
+    'transport-para' => 'Add details for the transport modes used for each leg of your journey, and the accommodation for all the stops.',
+    'project-title' => 'Choose a project to offset your C02 emissions',
+    'project-para' => 'Carbon footprint data tracks human greenhouse gas emissions to reduce and mitigate climate change.',
+    
+];

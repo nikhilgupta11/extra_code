@@ -1,0 +1,29 @@
+{
+    "name": "addweb/cms",
+    "description": "this cms plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bhavinS-addweb",
+            "email": "bhavin@addwebsolution.in"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0",
+        "illuminate/view": "*",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AddWeb\\CMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AddWeb\\CMS\\AddWebCMSServiceProvider"
+            ]
+        }
+    }
+}

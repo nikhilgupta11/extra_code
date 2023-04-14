@@ -1,0 +1,111 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 1rem/1.516 "Montserrat", Arial, sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  background: url(/images/wrapper-bg.png?b90a4be92354cbfb43a8167a720d365b) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.4);
+}
+
+header {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+header h1 {
+  margin: 0;
+  color: #fff;
+  padding: 30px 0;
+  font-size: 40px;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.content h1 {
+  margin-top: 0;
+}
+.content form {
+  margin: auto;
+  display: table;
+}
+.content form span {
+  display: block;
+  position: relative;
+  top: 10px;
+}
+.content form .hidden {
+  display: none;
+}
+.content form input {
+  float: left;
+  font-size: 16px;
+  border: 1px solid #fff;
+}
+.content form input[type=email] {
+  padding: 12px;
+  background: #fff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.content form input[type=email]:focus-visible {
+  outline: none;
+}
+.content form input[type=submit] {
+  padding: 12px 24px;
+  color: #fff;
+  background: transparent;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+  transition: all 0.235s ease-in-out;
+}
+.content form input[type=submit]:hover {
+  color: #212121;
+  background: #fff;
+  border-left: 1px solid #212121;
+}
+
+.alert-success,
+.alert-warning {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .content form {
+    display: flex;
+    justify-content: center;
+  }
+}
